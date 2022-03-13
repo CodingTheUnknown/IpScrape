@@ -10,7 +10,7 @@ class IpData:
 
     def query_ip_address(self, ip_addr):
         """
-        Takes the IP to be searched and begins the data request process
+        Takes the IP to be searched and begins the data request process. A Domain name can also be provided. E.G. google.com
         :param ip_addr: string
         """
         self.data = {"query": str(ip_addr),
